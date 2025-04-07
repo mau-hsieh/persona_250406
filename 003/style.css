@@ -41,6 +41,8 @@ body {
   img {
     display: block;
     width: 100%;
+    max-height: 300px; /* ✅ 限制最大高度 */
+    object-fit: cover; /* ✅ 保持圖片比例，不變形 */
     border-radius: 8px;
     margin-bottom: 20px;
   }
