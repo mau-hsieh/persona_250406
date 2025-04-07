@@ -24,6 +24,7 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 30px;
+      margin-bottom: 50px;
     }
 
     .card {
@@ -55,6 +56,33 @@
       object-fit: cover;
       border-radius: 10px;
     }
+
+    .theme-box {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #e6f0ec;
+      border-left: 8px solid #4caf50;
+      border-radius: 12px;
+      padding: 20px 30px;
+      text-align: left;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .theme-box h2 {
+      margin-top: 0;
+      color: #2e7d32;
+    }
+
+    .theme-box p {
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+
+    .theme-box a {
+      color: #2e7d32;
+      font-weight: bold;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -62,28 +90,40 @@
   <div class="card-container">
     <div class="card">
       <a href="001/index.html">
-        <img src="001/images.jpg" alt="工藤優作" class="thumbnail" />
+        <img src="001/cover.jpg" alt="工藤優作" class="thumbnail" />
         工藤優作
       </a>
     </div>
     <div class="card">
       <a href="002/index.html">
-        <img src="002/agasa.jpg" alt="阿笠博士" class="thumbnail" />
+        <img src="002/cover.jpg" alt="阿笠博士" class="thumbnail" />
         阿笠博士
       </a>
     </div>
     <div class="card">
       <a href="003/index.html">
-        <img src="003/harry.jpg" alt="哈利波特" class="thumbnail" />
+        <img src="003/cover.jpg" alt="哈利波特" class="thumbnail" />
         哈利波特
       </a>
     </div>
     <div class="card">
       <a href="004/index.html">
-        <img src="004/dumbledore.jpg" alt="鄧布利多" class="thumbnail" />
+        <img src="004/cover.jpg" alt="鄧布利多" class="thumbnail" />
         鄧布利多
       </a>
     </div>
+  </div>
+
+  <!-- 🔆 創意主題區塊 -->
+  <div class="theme-box">
+    <h2>📚 主題：圖書館光線問題的創意發想</h2>
+    <p>
+      教育部近日提醒學校圖書館光線不足的問題，
+      然而學校卻發現圖書館是最耗電的地方，
+      該如何找到平衡點是我們這一組想要探討的問題。
+      除此之外，
+      我們也關心年老族群因為視力問題延伸出來的閱讀困難等問題。
+    </p>
   </div>
 </body>
 </html>
