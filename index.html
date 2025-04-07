@@ -1,146 +1,89 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <title>工藤優作｜人物誌 Persona</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>人物誌選單 | Persona Index</title>
   <style>
     body {
-      font-family: 'Noto Sans TC', sans-serif;
-      background: #f8f9f7;
+      font-family: "Noto Sans TC", sans-serif;
+      background-color: #f4f7f6;
       margin: 0;
       padding: 40px 20px;
-      color: #333;
+      text-align: center;
     }
-    .persona-container {
+
+    h1 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .card-container {
       display: flex;
       flex-wrap: wrap;
-      max-width: 1100px;
-      margin: auto;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
       background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.08);
-      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+      transition: transform 0.2s;
     }
-    .column {
-      padding: 30px;
-      box-sizing: border-box;
+
+    .card:hover {
+      transform: scale(1.05);
     }
-    .left {
-      width: 30%;
-      background: #e4efe3;
-    }
-    .middle {
-      width: 40%;
-      border-left: 1px solid #ddd;
-    }
-    .right {
-      width: 30%;
-      border-left: 1px solid #ddd;
-      background: #f6f6f6;
-    }
-    img {
-      display: block;
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-    h2 {
-      margin-top: 0;
+
+    .card a {
+      text-decoration: none;
       color: #2c3e50;
-    }
-    .label {
+      font-size: 1.1rem;
       font-weight: bold;
+      display: block;
       margin-top: 10px;
     }
-    .bar {
-      background: #ddd;
-      height: 10px;
-      border-radius: 5px;
-      overflow: hidden;
-      margin-bottom: 8px;
-    }
-    .bar-fill {
-      height: 100%;
-      background: #4caf50;
-    }
-    ul {
-      padding-left: 1.2em;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #888;
-      margin-top: 30px;
+
+    .thumbnail {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
-  <div class="persona-container">
-    <div class="column left">
-      <img src="images.jpg" alt="工藤優作">
-      <h2>人物基本資料</h2>
-      <p><strong>姓名：</strong>工藤優作</p>
-      <p><strong>身分：</strong>推理小說家</p>
-      <p><strong>代表作：</strong>《暗夜男爵</p>
-      <p><strong>名言：</strong><br>「推理，是尋找真相的藝術。」</p>
-      <p><strong>簡介：</strong><br>工藤優作是日本著名的推理小說家，以邏輯嚴謹與寫作犀利著稱，不僅在文壇享有盛名，也暗中參與多起推理事件的解決，是新一推理能力的啟蒙導師。</p>
+  <h1>人物誌選單｜Persona Index</h1>
+  <div class="card-container">
+    <div class="card">
+      <a href="001/index.html">
+        <img src="001/cover.jpg" alt="工藤優作" class="thumbnail" />
+        工藤優作
+      </a>
     </div>
-
-    <div class="column middle">
-      <p class="label">目標</p>
-      <ul>
-        <li>寫出影響世人的推理鉅作</li>
-        <li>維持家庭安全與低調生活</li>
-        <li>大多時一人、且要燈光明亮看書</li>
-      </ul>
-      <p class="label">喜歡 / 不喜歡</p>
-      <ul>
-        <li><strong>喜歡：</strong>閱讀、安靜的書房、與妻兒互動、推理小說</li>
-        <li><strong>不喜歡：</strong>無謂的喧鬧、媒體曝光</li>
-      </ul>
-
-      <p class="label">困難</p>
-      <ul>
-        <li>角落燈光不足</li>
-        <li>角落的燈常壞掉</li>
-        <li>不習慣使用 3C</li>
-      </ul>
-
+    <div class="card">
+      <a href="002/index.html">
+        <img src="002/cover.jpg" alt="阿笠博士" class="thumbnail" />
+        阿笠博士
+      </a>
     </div>
-
-    <div class="column right">
-      <h2>性格量化評估</h2>
-      <p class="label">外向 vs 內向</p>
-      <div class="bar"><div class="bar-fill" style="width: 75%;"></div></div>
-      <p class="label">感性 vs 理性</p>
-      <div class="bar"><div class="bar-fill" style="width: 85%;"></div></div>
-      <p class="label">主動 vs 被動</p>
-      <div class="bar"><div class="bar-fill" style="width: 60%;"></div></div>
-      <p class="label">直覺 vs 實證</p>
-      <div class="bar"><div class="bar-fill" style="width: 80%;"></div></div>
-      <p class="label">規劃 vs 隨機</p>
-      <div class="bar"><div class="bar-fill" style="width: 70%;"></div></div>
-
-      <p class="label">特徵</p>
-      <ul>
-        <li>思考縝密、不喜情緒化</li>
-        <li>外表沉著，語氣溫和</li>
-        <li>圖書館角落書蟲</li>
-        <li>喜歡推理小說</li>
-        <li>有眼疾</li>
-      </ul>
-
-      <p class="label">喜歡的品牌 / 地方 / 興趣</p>
-      <ul>
-        <li>品牌：文具品牌 Pilot、Montblanc 鋼筆</li>
-        <li>地方：自家書房、圖書館、倫敦推理博物館</li>
-        <li>興趣：寫作、閱讀偵探小說、泡茶</li>
-      </ul>
+    <div class="card">
+      <a href="003/index.html">
+        <img src="003/cover.jpg" alt="哈利波特" class="thumbnail" />
+        哈利波特
+      </a>
+    </div>
+    <div class="card">
+      <a href="004/index.html">
+        <img src="004/cover.jpg" alt="鄧布利多" class="thumbnail" />
+        鄧布利多
+      </a>
     </div>
   </div>
-
-  <footer>
-    © 2025 動漫人物誌 Persona 卡片 | 工藤優作
-  </footer>
 </body>
 </html>
