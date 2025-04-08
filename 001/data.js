@@ -12,7 +12,7 @@ const personaData = {
     ],
     likes: ["閱讀", "安靜的書房", "與妻兒互動", "推理小說"],
     dislikes: ["無謂的喧鬧", "媒體曝光","被催稿"],
-    difficulties: ["角落燈光不足", "角落的燈常壞掉", "不習慣使用 3C"],
+    difficulties: ["角落燈光不足", "角落的燈常壞掉", "較習慣使用紙本書","較不習慣使用 3C"],
     traits: [
       { label: "外向 vs 內向", value: 75 },
       { label: "感性 vs 理性", value: 85 },
