@@ -1,6 +1,6 @@
 const personaData = {
   name: "阿笠 博士",
-  role: "發明家 / 科學家",
+  role: "53歲的發明家 / 科學家",
   image: "agasa.jpg", // 照片檔名請替換為你對應的圖片路徑
   work: "少年偵探團輔助者 / 柯南的道具支援者",
   quote: "年紀大了，眼睛可沒以前好用了啊～",
@@ -29,7 +29,7 @@ const personaData = {
   ],
   favorites: {
     brand: ["文具品牌 Pentel", "Pilot 技術筆"],
-    place: ["自家實驗室", "發明展", "中古書店"],
+    place: ["自家實驗室", "發明展", "中古書店","自家書房"],
     hobby: ["發明小道具", "寫筆記", "吃咖哩飯"]
   }
 };
