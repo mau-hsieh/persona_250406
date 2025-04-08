@@ -1,6 +1,6 @@
 const personaData = {
   name: "阿不思・鄧不利多",
-  role: "霍格華茲校長 / 傳奇巫師",
+  role: "年邁的霍格華茲校長 / 傳奇巫師",
   image: "dumbledore.jpg", // 請替換成對應圖片檔案名稱
   work: "霍格華茲魔法與巫術學院校長 / 鳳凰會創始人",
   quote: "即使是在最黑暗的時刻，也能找到光明，只要記得點亮燈。",
@@ -12,13 +12,13 @@ const personaData = {
   ],
   likes: ["檸檬雪寶", "魔法史書籍", "詩與寓言", "與學生對話"],
   dislikes: ["權力濫用", "強制規則", "人們逃避真相", "黑魔法"],
-  difficulties: ["視力老化需魔法強化", "年輕時失去妹妹的陰影", "難以與人建立深層情感","來自魔法世界，對於 3C 產品不熟悉"],
+  difficulties: ["視力老化需魔法強化", "來自魔法世界，對於 3C 產品不熟悉"],
   traits: [
     { label: "外向 vs 內向", value: 60 },
     { label: "感性 vs 理性", value: 75 },
     { label: "主動 vs 被動", value: 70 },
     { label: "直覺 vs 實證", value: 90 },
-    { label: "規劃 vs 隨機", value: 85 }
+    { label: "傳統 vs 科技", value: 10 }
   ],
   features: [
     "博學多聞且極具包容力",
@@ -26,7 +26,6 @@ const personaData = {
     "喜歡用隱喻教育學生",
     "有過去的傷痛但選擇原諒與成長",
     "因年紀視力退化，偶爾使用魔法眼鏡",
-    
   ],
   favorites: {
     brand: ["鳳凰羽毛魔杖", "蜜蜂公爵糖果店"],

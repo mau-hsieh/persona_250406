@@ -8,17 +8,18 @@ const personaData = {
   goals: [
     "持續研究發明對社會有益的裝置",
     "保護柯南與少年偵探團的安全",
-    "用紙筆記錄靈感，不依賴3C科技"
+    "用紙筆記錄靈感",
+    "由於經常發明新產品，因此不排斥 3C產品"
   ],
   likes: ["發明", "閱讀科學書", "老漫畫收藏", "煮咖哩"],
   dislikes: ["高科技產品太複雜的介面", "電腦當機", "媒體打擾"],
-  difficulties: ["眼睛老花，看近容易模糊", "不善操作手機與電腦", "實驗室角落燈光不夠亮"],
+  difficulties: ["眼睛老花，看近容易模糊", "實驗室角落燈光不夠亮"],
   traits: [
     { label: "外向 vs 內向", value: 65 },
     { label: "感性 vs 理性", value: 70 },
     { label: "主動 vs 被動", value: 60 },
     { label: "直覺 vs 實證", value: 90 },
-    { label: "規劃 vs 隨機", value: 50 }
+    { label: "傳統 vs 科技", value: 75 }
   ],
   features: [
     "熱心助人，個性親切",
@@ -28,7 +29,7 @@ const personaData = {
     "有老花眼"
   ],
   favorites: {
-    brand: ["文具品牌 Pentel", "Pilot 技術筆"],
+    brand: ["萬代"],
     place: ["自家實驗室", "發明展", "中古書店","自家書房"],
     hobby: ["發明小道具", "寫筆記", "吃咖哩飯"]
   }
