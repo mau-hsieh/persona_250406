@@ -6,6 +6,7 @@ const personaData = {
   quote: "去去武器走",
   intro: "哈利・波特是黑魔王佛地魔的宿敵，也是勇氣與友情的象徵。",
   goals: [
+    "學習魔法",
     "有充足光線看書"
   ],
   likes: ["魁地奇", "偷看禁書區的書", "巧克力蛙", "和榮恩、妙麗一起冒險"],
@@ -13,7 +14,7 @@ const personaData = {
   difficulties: ["視力差，必須戴眼鏡", "看書時光線不足"],
   traits: [
     { label: "外向 vs 內向", value: 55 },
-    { label: "感性 vs 理性", value: 65 },
+    { label: "感性 vs 理性", value: 40 },
     { label: "主動 vs 被動", value: 80 },
     { label: "直覺 vs 實證", value: 70 },
     { label: "傳統 vs 科技", value: 60 }
